@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644672719813,
-  "repoUrl": "https://github.com/yewstack/yew",
+  "lastUpdate": 1648419778412,
+  "repoUrl": "https://github.com/anthonylei/yew",
   "entries": {
     "Yew master branch benchmarks (Lower is better)": [
       {
@@ -5340,6 +5340,115 @@ window.BENCHMARK_DATA = {
           {
             "name": "yew-struct-keyed 34_startup-totalbytes",
             "value": "365.947265625",
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "askreet@gmail.com",
+            "name": "Kyle Smith",
+            "username": "askreet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e1f89a8352be8f8ec9cf982feacd69a52f6ce69d",
+          "message": "Update wording on pure function definition. (#2556)\n\nI was originally going to put a PR to fix \"has not side-effects\", but I also re-read this sentence and realized it could be interpreted as saying a pure function returns its parameters, not a deterministic value based on its parameters.",
+          "timestamp": "2022-03-28T00:29:33+05:00",
+          "tree_id": "2c5bb62e643175e839bb0335c31aa3f9016bd5e4",
+          "url": "https://github.com/anthonylei/yew/commit/e1f89a8352be8f8ec9cf982feacd69a52f6ce69d"
+        },
+        "date": 1648419776584,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "yew-struct-keyed 01_run1k",
+            "value": "220.904",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 02_replace1k",
+            "value": "210.3055",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 03_update10th1k_x16",
+            "value": "316.014",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 04_select1k",
+            "value": "74.87",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 05_swap1k",
+            "value": "97.879",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 06_remove-one-1k",
+            "value": "32.542500000000004",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 07_create10k",
+            "value": "2328.489",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 08_create1k-after1k_x2",
+            "value": "445.988",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 09_clear1k_x8",
+            "value": "194.3365",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 21_ready-memory",
+            "value": "0.9634475708007812",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 22_run-memory",
+            "value": "1.45648193359375",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 23_update5-memory",
+            "value": "1.4602203369140625",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 24_run5-memory",
+            "value": "1.5052261352539062",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 25_run-clear-memory",
+            "value": "1.1272430419921875",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 31_startup-ci",
+            "value": "1731.654",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 32_startup-bt",
+            "value": "37.04199999999999",
+            "unit": ""
+          },
+          {
+            "name": "yew-struct-keyed 34_startup-totalbytes",
+            "value": "330.5556640625",
             "unit": ""
           }
         ]
